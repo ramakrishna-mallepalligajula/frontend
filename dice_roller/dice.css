@@ -1,0 +1,29 @@
+#container{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+button{
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: rgb(84, 84, 125);
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color:rgb(84, 84, 200);
+}
+button:active{
+    background-color: rgb(84, 84, 280);
+}
+
+input{
+    font-size: 2.5rem;
+    max-width: 150px;
+    text-align: center;
+    border-radius: 15px;
+}
