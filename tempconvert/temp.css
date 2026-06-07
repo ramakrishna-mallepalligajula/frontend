@@ -1,0 +1,40 @@
+form{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aqua;
+    border-radius: 25px;
+    max-width: 350px;
+    margin: auto;
+    box-shadow: 5px 5px 15px;
+    padding: 25px;
+}
+
+#inputbox{
+    width: 50%;
+    height: 25px;
+    text-align: center;
+    font-size: 2em;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+button{
+    background-color: rgb(121, 229, 233);
+    border-radius: 25px;
+    border-color: rgb(121, 229, 233);
+    font-size: large;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: aliceblue;
+}
+
+
+.label{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#result{
+    font-size: 1.75em;
+}
