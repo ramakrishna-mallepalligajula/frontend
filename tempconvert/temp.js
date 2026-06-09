@@ -5,7 +5,7 @@ const result = document.getElementById("result")
 
 let temp;
 
-function convert(){
+const convert = () => {
 
     if(toFahrenheit.checked){
         temp = Number(inputbox.value);
@@ -21,4 +21,5 @@ function convert(){
     }else{
         result.textContent = "Select a unit";
     }
+
 }
